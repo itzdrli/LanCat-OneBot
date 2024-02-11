@@ -2,15 +2,15 @@
     "$schema": "./manifest_schema.json",
     "manifest_version": 4,
     "type": "extension",
-    "name": "插件模板",
-    "slug": "plugin_template",
-    "description": "LiteLoaderQQNT的插件模板",
-    "version": "0.1.0",
+    "name": "蓝猫OneBot",
+    "slug": "lancat_onebot",
+    "description": "为其它应用提供OneBot接口。",
+    "version": "0.0.01",
     "icon": "./icon.png",
     "authors": [
         {
-            "name": "LiteLoaderQQNT",
-            "link": "https://github.com/LiteLoaderQQNT"
+            "name": "MeowSauce,
+            "link": "https://github.com/MeowSauce"
         }
     ],
     "platform": [
@@ -22,13 +22,5 @@
         "renderer": "./src/renderer.js",
         "main": "./src/main.js",
         "preload": "./src/preload.js"
-    },
-    "repository": {
-        "repo": "LiteLoaderQQNT/Plugin-Template",
-        "branch": "main",
-        "release": {
-            "tag": "0.1.0",
-            "file": "Plugin-Template.zip"
-        }
     }
 }
